@@ -1,0 +1,156 @@
+/*BODY*/
+body {
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-de-cor-gradiente-dourado-para-pano-de-fundo-abstrato-criativo_120819-121.jpg?w=2000);
+}
+
+/*FONTES E LINKS*/
+a {
+    text-decoration-line: none;
+    color: whitesmoke
+}
+    
+h1 {
+    color: rgb(22, 22, 93);
+    text-align: center;
+}
+        
+h2 {
+    color: rgb(255, 255, 143);
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 143);
+    background-color: rgb(50, 50, 3);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;   
+}
+
+li {
+    list-style-type: none;
+    list-style-position: outside ;
+    padding-right: 30px;
+}
+
+/*CABEÇALHO*/
+#cabeçalho {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    background-color: rgb(50, 50, 3);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+    margin-right: 795px;
+    padding-left: 0px;
+}
+
+.menu {
+    color: rgb(50, 50, 3);
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    width: fit-content;
+    height: 25px;
+}
+
+.menu:hover {
+    background-color: rgb(50, 50, 3);
+    color: whitesmoke;
+}
+
+/*CONTEUDO*/
+#conteudo1 {
+    background-color: none;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+#textoconteudo1 {
+    width: 700px;
+    height: 256px;
+    padding-top: 25px;
+    padding-left: 0px;
+    border-top: 7px solid rgb(50, 50, 3);
+    border-right: 7px solid rgb(50, 50, 3);
+    border-bottom: 7px solid rgb(50, 50, 3);
+    background-color: whitesmoke;
+    padding-top: 0;
+}
+
+#imgconteudo {
+    width: 256px;
+    height: 256px;
+    border: 7px solid rgb(50, 50, 3);
+}
+
+#candomble, #umbanda {
+    border: 3px solid rgb(50, 50, 3);
+    width: fit-content;
+    height: 150 px;
+    box-sizing: border-box;
+}
+
+#conteudo2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.datas {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li:hover {
+    background-color: rgb(50, 50, 3);
+    color: whitesmoke;
+}
+
+#conteudo3 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.galeriadefotos {
+    width: 320px;
+    height: 198,75px;
+    border: 3px solid rgb(50, 50, 3);
+}
+
+.galeria {
+    width: 300px;
+    height: 168.75px;
+    padding: 10px;
+}
+
+/*PAGINA 1*/
+#membros {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
